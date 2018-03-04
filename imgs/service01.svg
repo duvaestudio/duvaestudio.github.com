@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 141.8799 202.1698">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0052cc;
+      }
+
+      .cls-2 {
+        fill: #dfe1e5;
+      }
+
+      .cls-3 {
+        fill: #ff991f;
+      }
+
+      .cls-4 {
+        fill: #0065ff;
+      }
+
+      .cls-5, .cls-7, .cls-9 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-5, .cls-9 {
+        stroke: #0052cc;
+      }
+
+      .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-6 {
+        fill: url(#New_Gradient_Swatch_6);
+      }
+
+      .cls-7 {
+        stroke: #ff8b00;
+      }
+
+      .cls-8 {
+        fill: #fafbfc;
+      }
+
+      .cls-10 {
+        fill: #ffab00;
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_6" data-name="New Gradient Swatch 6" x1="-9.4754" y1="163.7245" x2="148.0645" y2="6.1846" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffab00"/>
+      <stop offset="1" stop-color="#ffe380"/>
+    </linearGradient>
+  </defs>
+  <title>Book</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Objects">
+      <path id="_Path_" data-name="&lt;Path&gt;" class="cls-1" d="M141.88,157.07v32.27H16.5536A16.4107,16.4107,0,0,1,.0011,173.387,16.1154,16.1154,0,0,1,16.13,157.07Z"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;" class="cls-2" d="M132.88,148.323v32.27H16.13a16.135,16.135,0,1,1,0-32.27Z"/>
+      <path class="cls-3" d="M16.13,160.07H141.88v-3H16.13a16.135,16.135,0,0,0,0,32.27H141.88v-3H16.13a13.1353,13.1353,0,1,1,0-26.2705Z"/>
+      <polygon id="_Path_3" data-name="&lt;Path&gt;" class="cls-4" points="118.297 202.17 107.185 194.721 96.073 202.17 96.073 169.432 118.297 169.432 118.297 202.17"/>
+      <path class="cls-1" d="M118.2965,169.4322H96.0728v27.2939c2.7037-8.2643,6.5856-11.8662,9.8378-13.5862,4.0879-2.162,7.8853-1.7579,10.9279-5.174a10.4284,10.4284,0,0,0,1.458-2.1254Z"/>
+      <line class="cls-5" x1="134.6994" y1="169.4322" x2="14.5564" y2="169.4322"/>
+      <path id="_Path_4" data-name="&lt;Path&gt;" class="cls-6" d="M141.88,0V157.07H16.13A16.1151,16.1151,0,0,0,0,173.2V16.3A16.3,16.3,0,0,1,16.3,0Z"/>
+      <rect class="cls-7" x="55.6651" y="22.9859" width="42.5409" height="63.5617" rx="6.0589" ry="6.0589" transform="translate(131.7023 -22.1689) rotate(90)"/>
+      <rect class="cls-8" x="50.1076" y="37.9736" width="53.6559" height="33.5862" rx="2.2699" ry="2.2699"/>
+      <line class="cls-7" x1="57.7924" y1="125.2991" x2="99.4241" y2="125.2991"/>
+      <line class="cls-7" x1="57.7924" y1="134.6487" x2="99.4241" y2="134.6487"/>
+      <line class="cls-9" x1="57.7924" y1="50.0266" x2="95.4241" y2="50.0266"/>
+      <line class="cls-9" x1="57.7924" y1="59.3762" x2="95.4241" y2="59.3762"/>
+      <path class="cls-10" d="M12.1981.5412A16.2916,16.2916,0,0,0,0,16.3V173.2a16.0644,16.0644,0,0,1,12.1981-15.6281Z"/>
+    </g>
+  </g>
+</svg>
