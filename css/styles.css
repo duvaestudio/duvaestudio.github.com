@@ -89,7 +89,7 @@ h3 {
 
 .services__title {
   display: block;
-  border-top: 16px;
+  margin-top: 16px;
 }
 
 .button {
