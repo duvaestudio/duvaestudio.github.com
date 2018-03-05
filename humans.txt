@@ -1,0 +1,15 @@
+/* TEAM */
+Web designer: Lorena Garavito
+Contact: deisylorena[at]outlook.com
+From: Medellin, Colombia
+
+Developer: Sebastian Gutierrez
+Contact: sebastiangutierrezcorrea[at]gmail.com
+From: Medellin, Colombia
+
+/* SITE */
+Last update: 2018/03/04
+Lenguage: Español
+Doctype: HTML5
+Standars: HTML5, CSS3
+IDE: codeanywhere.com

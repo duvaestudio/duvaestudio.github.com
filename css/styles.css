@@ -10,7 +10,7 @@
   --accent: #f5b551;
   --gray: #f1f5f9;
   --text-color: #3f3f3f;
-  --serif: "PT Sans";
+  --serif: "PT Serif";
   --sans: Muli;
   --slab: "Roboto Slab";
 }
@@ -21,24 +21,8 @@ a {
 
 body {
   background-color: var(--gray);
-  font-family: Roboto, sans-serif;
+  font-family: var(--sans), sans-serif;
   color: var(--text-color);
-}
-
-h1 {
-  font-family: var(--serif);
-  color: #fff;
-  font-size: 2.4rem;
-  line-height: 2rem;
-  margin-top: 60px;
-  margin-bottom: 16px;
-}
-
-h3 {
-  font-family: var(--slab);
-  color: var(--accent);
-  font-size: 1rem;
-  font-weight: 300;
 }
 
 .main {
@@ -62,19 +46,34 @@ h3 {
 
 .presentation {
   text-align: left;
-  padding: 4em;
+  padding: 3rem 4rem;
 }
 
 .presentation__logo {
   width: 120px;
 }
 
+.presentation__title {
+  font-family: var(--serif);
+  color: #fff;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  margin-top: 50px;
+}
+
 .presentation__tagline {
+  font-family: var(--slab);
+  color: var(--accent);
   font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.presentation__value {
+  font-size: 1.3rem;
   font-family: var(--sans);
   color: #fff;
-  margin-top: 24px;
-  margin-bottom: 42px;
+  margin-top: 32px;
+  margin-bottom: 70px;
   max-width: 400px;
 }
 
@@ -84,7 +83,7 @@ h3 {
 }
 
 .services__icon {
-  max-width: 300px;
+  max-width: 280px;
 }
 
 .services__title {
@@ -94,9 +93,14 @@ h3 {
 
 .button {
   border: none;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 3px;
+  padding: 10px 16px;
+  font-size: 20px;
+  border-radius: 12px;
+  transition: all .4s ease-out;
+}
+.button:hover {
+  background-color: #f93156;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.3);
 }
 
 .button--primary {
