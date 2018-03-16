@@ -5,10 +5,10 @@
 }
 
 :root {
-  --primary: #4e3999;
+  --primary: #4e3994;
   --secondary: #de2345;
   --accent: #f5b551;
-  --gray: #f2f3f5;
+  --gray: # ;
   --text-color: #3f3f3f;
   --serif: "PT Serif";
   --sans: Muli;
@@ -167,6 +167,7 @@ body {
  
   .services__item {
     max-width: 300px;
+    width: 100%;
     margin-bottom: 24px;
   }
   
