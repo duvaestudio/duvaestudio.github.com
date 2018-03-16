@@ -8,7 +8,7 @@
   --primary: #4e3999;
   --secondary: #de2345;
   --accent: #f5b551;
-  --gray: #f1f5f9;
+  --gray: #f2f3f5;
   --text-color: #3f3f3f;
   --serif: "PT Serif";
   --sans: Muli;
@@ -23,6 +23,7 @@ body {
   background-color: var(--gray);
   font-family: var(--sans), sans-serif;
   color: var(--text-color);
+  position: relative;
 }
 
 .main {
@@ -32,8 +33,19 @@ body {
   background-image: url(../imgs/background.svg);
   background-repeat: no-repeat;
   background-position: left;
-  -webkit-background-size: cover;
   background-size: cover;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  color: var(--secondary);
+}
+
+.footer__link {
+  color: var(--primary);
 }
 
 .presentation, .services {
@@ -42,11 +54,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .presentation {
   text-align: left;
-  padding: 3rem 4rem;
+  /*padding: 3rem 4rem;*/
 }
 
 .presentation__logo {
@@ -77,18 +90,21 @@ body {
   max-width: 400px;
 }
 
+.services {
+  padding: 4rem 0;
+}
+
 .services__item {
   width: 50%;
   text-align: center;
 }
 
 .services__icon {
-  max-width: 280px;
+  max-width: 250px;
 }
 
 .services__title {
   display: block;
-  margin-top: 16px;
 }
 
 .button {
@@ -99,7 +115,6 @@ body {
   transition: all .4s ease-out;
 }
 .button:hover {
-  background-color: #f93156;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.3);
 }
 
@@ -108,4 +123,62 @@ body {
   font-weight: normal;
   color: #fff;
   background-color: var(--secondary);
+}
+.button--prymary:hover {
+  background-color: #f93156;
+}
+
+.button--transparent {
+  margin-top: 18px;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .main {
+    flex-direction: column;
+    background-position: top;
+    background-image: url(../imgs/background-mobile.svg);
+    background-size: contain;
+    margin-bottom: 4rem;
+  }
+  
+  .footer {
+    bottom: -50px;
+  }
+
+  .presentation, .services {
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  .presentation__title {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 18px;
+  }
+  
+  .presentation__tagline {
+    font-size: 1.1rem;
+  }
+  
+  .presentation__value {
+    font-size: 1.2rem;
+  }
+ 
+  .services__item {
+    max-width: 300px;
+    margin-bottom: 24px;
+  }
+  
+  .services__title {
+    font-size: 1.3rem;
+    background-color: var(--gray);
+    display: inline-block;
+  }
+  
+  .button {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+  }
 }
